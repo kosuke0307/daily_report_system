@@ -44,7 +44,7 @@ public class Employee{
 	private String name;
 
 	@Column(name = "password", length = 64, nullable = false)
-	private Integer password;
+	private String password;
 
 	@Column(name ="admin_flag",  nullable = false)
 	private Integer admin_flag;
@@ -82,11 +82,11 @@ public class Employee{
 		this.name = name;
 	}
 
-	public Integer getPassword() {
+	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(Integer password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 
