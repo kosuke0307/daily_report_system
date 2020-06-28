@@ -27,7 +27,7 @@
 
                     <td>
                         <c:choose>
-                            <c:when test="${employee.delete_flag == 1} ">
+                            <c:when test="${employee.delete_flag == 1}">
                                 (削除済み)
                             </c:when>
                             <c:otherwise>
